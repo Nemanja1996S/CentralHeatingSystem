@@ -1,4 +1,4 @@
-venv envirolment
+venv environment
 
 prefect version:
 
@@ -15,3 +15,13 @@ Server:
   SQLite version:    3.45.1
 
 pip install -U "prefect==2.19.4"
+
+pip install yr_weather
+
+python -m venv prefect-env          //create venv environment
+
+\prefect-env\Scripts\activate.ps1   //activate venv environment
+
+prefect version
+
+prefect server start
